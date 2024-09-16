@@ -17,3 +17,33 @@ Para executar os arquivos no terminal digite o seguinte comando:
 - Métodos
 - Set()
 - Map
+
+## Aula 02 - Enumeração
+
+- Declaração enum
+- Estrutura Switch Case
+- Palavras chaves "is" e "as"
+
+## Aula 02 - Estrutura de loop
+
+- for
+- foreach
+- do
+- while
+
+## Aula 02 - Números randômicos
+
+- inicialização de número randômico
+
+## Aula 02 - Classes
+
+- Criação de classes
+- Definição de atributos
+- Método Construtor
+- Definição de métodos
+
+## Aula 02 - ImputDeEntreda
+
+- Importação de biblioteca para entrada de dados
+- método stdout
+- Utilização de ternário
