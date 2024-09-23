@@ -71,3 +71,6 @@ Além disso, o conteúdo é estruturado para facilitar o aprendizado progressivo
 - @required
 
 ## Aula 03 - Carro
+
+- Exercício de Objeto
+- Teste do objeto
