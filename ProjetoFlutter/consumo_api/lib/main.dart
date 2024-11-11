@@ -73,6 +73,9 @@ class _CepScreenState extends State<CepScreen> {
               Text('CEP: ${_cepData!.cep}'),
               Text('Estado: ${_cepData!.state}'),
               Text('Cidade: ${_cepData!.city}'),
+              Text('Rua: ${_cepData!.neighborhood}'),
+              Text('Estado: ${_cepData!.state}'),
+              Text('Serviço: ${_cepData!.service}'),
             ] else if (_errorMessage != null) ...[
               Text(
                 _errorMessage!,

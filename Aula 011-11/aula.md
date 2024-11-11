@@ -45,7 +45,7 @@ Então, declaramos que o método deve ser chamado de forma assíncrona usando as
 
 O objeto Future<ResultType> em Dart representa um valor que será fornecido em algum momento futuro. Ele pode ser usado para marcar um método com um resultado futuro, ou seja, um metodo que retorna um objeto Future<ResultType> que não terá o valor de um resultado imediatamente, mas, em vez disso, após alguma computação em um ponto posterior no tempo.
 
-//cep_service.dart
+//Arquivo cep_service.dart
 import 'dart:convert';
 import 'package: http/http.dart' as http;
 import 'cep_modal.dart';
@@ -62,6 +62,27 @@ class CepService{
         } else {
             throw Exception('Erro ao consultar CEP');
         }
+    }
+}
+
+//Arquivo Cep_model.dart
+class CepModel{
+    final String cep;
+    final String state;
+    final String city;
+
+    cepModel({
+        required this.cep,
+        required this.state,
+        required this.city
+    });
+
+    factory CepModel.fromMap(Map<String, dynamic> map){
+        return CepModel(
+            cep:map['cep'],
+            State:map['State'],
+            City:map['city']
+        );
     }
 }
 
