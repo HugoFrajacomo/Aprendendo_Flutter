@@ -76,6 +76,9 @@ class _CepScreenState extends State<CepScreen> {
               Text('Rua: ${_cepData!.neighborhood}'),
               Text('Estado: ${_cepData!.state}'),
               Text('Serviço: ${_cepData!.service}'),
+              Text('Latitude: ${_cepData!.latitude ?? 'valor não encontrado'}'),
+              Text(
+                  'Longitude: ${_cepData!.longitude ?? 'valor não encontrado'}'),
             ] else if (_errorMessage != null) ...[
               Text(
                 _errorMessage!,

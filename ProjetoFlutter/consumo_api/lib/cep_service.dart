@@ -10,7 +10,7 @@ class CepService {
 
     if (response.statusCode == 200) {
       final data = jsonDecode(response.body);
-      return CepModel.fromMap(data);
+      return CepModel.formMap(data);
     } else {
       throw Exception('Erro ao consultar CEP');
     }
