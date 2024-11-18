@@ -7,3 +7,6 @@ Você tem que definir um canal de plataforma p/ cada plataforma. No caso do Andr
 É importante saber o suporte para o tipo de dados da plataforma e os codecs. Os canias da plataforma padrão adotam um codec de mensagem padrão que suporta serialização binária eficiente. Eles são semelhantes a JSON. 
 
 Quando você envia valores de e para eles, a serialização e desserialização acontecem automáticamente. 
+![Flutter1](https://github.com/user-attachments/assets/3803af52-113a-4183-b862-cba9127632a6)
+
+![flutter2](https://github.com/user-attachments/assets/293de3f2-c2fd-43ab-add9-f3fa8501bb55)
