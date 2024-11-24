@@ -10,3 +10,5 @@ Quando você envia valores de e para eles, a serialização e desserialização 
 ![Flutter1](https://github.com/user-attachments/assets/3803af52-113a-4183-b862-cba9127632a6)
 
 ![flutter2](https://github.com/user-attachments/assets/293de3f2-c2fd-43ab-add9-f3fa8501bb55)
+
+link: https://docs.flutter.dev/platform-integration/platform-channels
